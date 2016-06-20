@@ -1,0 +1,42 @@
+[
+	{
+		"name": "GeoDa for Spatial Data Analysis",
+		"image": "geoda.png",
+		"url": "http://geodacenter.github.io/",
+		"date": "Jan 2016",
+		"tags": ["GeoDa","GIS", "Data Analytics"]
+	},
+	{
+		"name": "Mining Travel Patterns from Photos",
+		"image": "travellearning.jpg",
+		"url": "http://www.slideshare.net/lixun910/geo-crowd2013-xunli",
+		"date": "May 2013",
+		"tags": ["GeoPhotos","Data Mining"]
+	},
+	{
+		"name": "Machine Learning Movement Behavior",
+		"image": "learningmovement.jpg",
+		"url": "http://www.slideshare.net/lixun910/machine-learningmove-website",
+		"date": "June 2012",
+		"tags": ["Machine Learning","Trajactories","Behavioral"]
+	},
+	{
+		"name": "3D Point Cloud from GeoPhotos",
+		"image": "3dpointcloud.jpg",
+		"date": "Oct 2012",
+		"tags": ["GeoPhotos","Point Cloud"]
+	},
+	{
+		"name": "Xelarator: Automatic Shell Scripts",
+		"image": "xelerator.jpg",
+		"date": "Oct 2008",
+		"tags": ["Shell Scripts","Java"]
+	},
+	{
+		"name": "Video Search Engine",
+		"image": "videosearch.jpg",
+		"url": "https://youtu.be/ZAR492o9fy8s",
+		"date": "Oct 2009",
+		"tags": ["Video Search"]
+	}
+]
