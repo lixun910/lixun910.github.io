@@ -1,7 +1,7 @@
 title: Xun Li
 description: My Personal Blog
 author: Xun Li
-logo: http://aboutashu.com/hcz-jekyll-blog/static/img/avatar.png
+logo: http://lixun910.github.io/static/img/avatar.png
 github: https://github.com/lixun910
 about: Dev for Map
 disqus_shortname: lixun910
@@ -14,28 +14,25 @@ urls:
     - text: Projects
       url: /projects/
       icon: fa-desktop
-    - text: About
-      url: /about/
-      icon: fa-comments
     - text: Github
-      url: https://github.com/ashutosh2k12
+      url: https://github.com/lixun910
       icon: fa-github
     - text: XML Feed
       url: /feed.xml
       icon: fa-feed
     - text: Resume
-      url: '#'
+      url: '/resume/'
       icon: fa-graduation-cap
 
 social:
     - icon: fa-facebook
-      link: '#'
+      link: 'https://www.facebook.com/lixun910'
     - icon: fa-skype
-      link: '#'
+      link: 'https://www.skype.com/lixun910'
     - icon: fa-twitter
-      link: '#'
+      link: 'https://twitter.com/lixun910'
     - icon: fa-linkedin
-      link: '#'
+      link: 'https://www.linkedin.com/in/xun-li-794a5b18'
     #- icon: fa-stack-exchange
     #  link: '#'
 
@@ -47,7 +44,7 @@ share:
 enableTags: true
 tagarray: []
 
-url: "http://aboutashu.com/hcz-jekyll-blog"
+url: "http://lixun910.github.io"
 baseurl: ""
 paginate: 20
 per_page: 20
