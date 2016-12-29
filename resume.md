@@ -6,17 +6,17 @@ permalink: /resume/
 
 #### **Xun Li**, Ph.D.
 
-Research Scientist
+Assistant Director / Senior Software Engineer
 
-GeoDa Center for Geospatial Analysis and Computation
+Center for Spatial Data Science
 
-School of Geographical Sciences and Urban Planning
+University of Chicago
 
-Arizona State University
+http://spatial.uchicago.edu
 
 Phone: 1-four-eight-zero-516-3753
 
-Email: xunli at asu.edu; lixun910 at gmail.com
+Email: xunli at uchicago.edu; lixun910 at gmail.com
 
 ### Education
 
@@ -26,8 +26,31 @@ Email: xunli at asu.edu; lixun910 at gmail.com
 
 ·       2003 - B.S. - (Information Engineering) Wuhan University
 
+### Professional Appointments
+
+University of Chicago, Chicago, IL 8/1/2017-present
+·       Assistant Director for Data Science / Senior Software Engineer
+
+Arizona State University, Tempe, AZ 3/2013-7/31/2017
+·       Data Scientist / Lead Software Engineer
+
+Arizona State University, Tempe, AZ 8/2008-3/2013
+·       Research Assistant / Software Engineer
+
+Alcatel-Lucent, Beijing, China 3/2006-8/2008
+·       Software Engineer
+
+Microsoft Research, Beijing, China 10/2005-3/2006
+·       Research Assistant
+
+Motorola R&D, Beijing, China 8/2004-8/2005
+·       Software Engineer
+
+
 ### Publications
 `Big Data, Data Mining and Machine Learning`
+
+13.     William Griffin and **Xun Li**. "Using Bayesian Nonparametric Hidden Semi-Markov Models to Disentangle Affect Processes during Marital Interaction". *PLOS One*. 11.5 (2016): e0155706.
 
 2.     **Xun Li**, Wenwen Li, Luc Anselin, Sergio Rey, Julia Koschinsky. “A MapReduce algorithm to create contiguity weights for spatial analysis of big data”. In *Proceedings of the 3rd ACM SIGSPATIAL International Workshop on Analytics for Big Geospatial Data*. p 50-53. ACM New York, USA. 2014.
 
