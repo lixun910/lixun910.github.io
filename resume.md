@@ -30,37 +30,37 @@ Email: xunli at uchicago.edu; lixun910 at gmail.com
 
 University of Chicago, Chicago, IL 8/1/2017-present
 
-·       Assistant Director for Data Science / Senior Software Engineer
+·       *Assistant Director for Data Science / Senior Software Engineer*
 
 
 
 Arizona State University, Tempe, AZ 3/2013-7/31/2017
 
-·       Data Scientist / Lead Software Engineer
+·       *Data Scientist / Lead Software Engineer*
 
 
 
 Arizona State University, Tempe, AZ 8/2008-3/2013
 
-·       Research Assistant / Software Engineer
+·       *Research Assistant / Software Engineer*
 
 
 
 Alcatel-Lucent, Beijing, China 3/2006-8/2008
 
-·       Software Engineer
+·       *Software Engineer*
 
 
 
 Microsoft Research, Beijing, China 10/2005-3/2006
 
-·       Research Assistant
+·       *Research Assistant*
 
 
 
 Motorola R&D, Beijing, China 8/2004-8/2005
 
-·       Software Engineer
+·       *Software Engineer*
 
 
 
