@@ -1,6 +1,6 @@
-title: Xun Li
-description: My Personal Blog
-author: Xun Li
+title: Oleander AI
+description: Software development
+author: Oleander AI 
 logo: http://lixun910.github.io/static/img/avatar.png
 github: https://github.com/lixun910
 about: Dev for Map
@@ -53,3 +53,14 @@ markdown: kramdown
 gems:
   - jekyll-paginate
   - jekyll-gist
+atom:
+  buildCommand:
+    - bundle exec jekyll
+    - build
+    - --option
+    - --this
+  buildEnv:
+    JEKYLL_ENV: development
+  postDirs:
+    - _posts
+  defaultPostDir: _posts
