@@ -1,56 +1,66 @@
-title:            Clean+Simple Theme
-description:      Something...
-       
+title: Oleander AI
+description: Software development
+author: Oleander AI 
+logo: http://lixun910.github.io/static/img/avatar.png
+github: https://github.com/lixun910
+about: Dev for Map
+disqus_shortname: lixun910
+google_analytics: UA-74286861-1
+urls:
+    - text: Home
+      url: /
+      icon: fa-home
+      layout: post
+    - text: Projects
+      url: /projects/
+      icon: fa-desktop
+    - text: Github
+      url: https://github.com/lixun910
+      icon: fa-github
+    - text: XML Feed
+      url: /feed.xml
+      icon: fa-feed
+    - text: Resume
+      url: '/resume/'
+      icon: fa-graduation-cap
 
-future:      false  # publish future dated posts --  true, false (default) 
-highlighter: rouge
-markdown:    kramdown
+social:
+    - icon: fa-facebook
+      link: 'https://www.facebook.com/lixun910'
+    - icon: fa-skype
+      link: 'https://www.skype.com/lixun910'
+    - icon: fa-twitter
+      link: 'https://twitter.com/lixun910'
+    - icon: fa-linkedin
+      link: 'https://www.linkedin.com/in/xun-li-794a5b18'
+    #- icon: fa-stack-exchange
+    #  link: '#'
+
+share:
+  twitter_username: lixun910
+  fb_appid: 000000000000
+
+
+enableTags: true
+tagarray: []
+
+url: "http://lixun910.github.io"
+baseurl: ""
+paginate: 20
+per_page: 20
+paginate_path: "/page:num/"
+markdown: kramdown
 gems:
-  - jekyll-sitemap
   - jekyll-paginate
   - jekyll-gist
-  - jekyll-feed
-  
-sass:
-  sass_dir: _sass
-  style: compressed
-
-permalink: /:categories/:year-:month-:day/:title.html
-
-# Amount of post to show on home page
-paginate: 5
-
-#kramdown:
-#  input: GFM
-#  auto_ids: true
-#  footnote_nr: 1
-#  entity_output: as_char
-#  toc_levels: 1..6
-#  enable_coderay: false
-
-include: 
-  - .htaccess
-  
-exclude: 
-  - "*.less"
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - CHANGELOG
-  - Capfile
-  - Gemfile
-  - Gruntfile.js
-  - LICENSE
-  - README
-  - Rakefile
-  - config
-  - gulpfile.js
-  - lib
-  - log
-  - node_modules
-  - package.json
-  - spec
-  - tmp
+atom:
+  buildCommand:
+    - bundle exec jekyll
+    - build
+    - --option
+    - --this
+  buildEnv:
+    JEKYLL_ENV: development
+  postDirs:
+    - _posts
+  defaultPostDir: _posts

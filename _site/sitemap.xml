@@ -1,41 +1,336 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>http://localhost:4000/posts/2016-11-20/sample-post.html</loc>
-<lastmod>2016-11-20T00:00:00-05:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/posts/2016-11-19/image-post.html</loc>
-<lastmod>2016-11-19T00:00:00-05:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/posts/2016-11-18/code-highlighting-post.html</loc>
-<lastmod>2016-11-18T00:00:00-05:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/posts/2016-11-14/video-post.html</loc>
-<lastmod>2016-11-14T00:00:00-05:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/posts/2016-11-10/readability-post.html</loc>
-<lastmod>2016-11-10T00:00:00-05:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/404.html</loc>
-</url>
-<url>
-<loc>http://localhost:4000/archives/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/tags/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/about/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/blogroll/</loc>
-</url>
-</urlset>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oleander AI</title>
+    <description>Software development</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/sitemap.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 20 Nov 2018 11:37:42 -0700</pubDate>
+    <lastBuildDate>Tue, 20 Nov 2018 11:37:42 -0700</lastBuildDate>
+    <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>Setup React development environment</title>
+        <description>&lt;p&gt;It is not the same age that you just open your vim and start writing codes to draft a prototype of a web app (client side), then debug your code in chrome. You need a better MVC model for your javascript based (web) application, so your project is more manageable and more towards a team development setup. I am not sure how well React will help you in development for now, and I will try it out.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Installation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To setup React development, you need a Node.js first.&lt;/p&gt;
+
+&lt;p&gt;Download GeoDa 1.8 at &lt;a href=&quot;http://geodacenter.github.io&quot;&gt;http://geodacenter.github.io&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 20 Nov 2018 03:30:39 -0700</pubDate>
+        <link>http://localhost:4000/development/react/javascript/node.js/2018/11/20/react-setup.html</link>
+        <guid isPermaLink="true">http://localhost:4000/development/react/javascript/node.js/2018/11/20/react-setup.html</guid>
+        
+        
+        <category>development</category>
+        
+        <category>react</category>
+        
+        <category>javascript</category>
+        
+        <category>node.js</category>
+        
+      </item>
+    
+      <item>
+        <title>GeoDa 1.8 helps you doing spatial data analysis on Ubuntu</title>
+        <description>&lt;p&gt;Doing spatial data analysis on Ubuntu?&lt;/p&gt;
+
+&lt;p&gt;Here’s one more tool:  &lt;code class=&quot;highlighter-rouge&quot;&gt;GeoDa1.8&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Download GeoDa 1.8 at &lt;a href=&quot;http://geodacenter.github.io&quot;&gt;http://geodacenter.github.io&lt;/a&gt;&lt;/p&gt;
+
+&lt;video width=&quot;100%&quot; controls=&quot;&quot;&gt;
+  &lt;source src=&quot;/assets/geoda-ubuntu.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+Your browser does not support the video tag.
+&lt;/video&gt;
+</description>
+        <pubDate>Wed, 20 Apr 2016 06:50:39 -0700</pubDate>
+        <link>http://localhost:4000/geoda/data-analysis/2016/04/20/geoda-ubuntu.html</link>
+        <guid isPermaLink="true">http://localhost:4000/geoda/data-analysis/2016/04/20/geoda-ubuntu.html</guid>
+        
+        
+        <category>geoda</category>
+        
+        <category>data-analysis</category>
+        
+      </item>
+    
+      <item>
+        <title>GeoDa provides extra power of spatial analysis to CartoDB fans</title>
+        <description>&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;CartoDB&lt;/code&gt; lovers:need some extra power of spatial data analysis? Using &lt;a href=&quot;http://cartodb.com&quot;&gt;CartoDB&lt;/a&gt;+&lt;a href=&quot;/tech/2015/04/13/geoda-18-release.html&quot;&gt;GeoDa 1.8&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;See how it works in these slides:&lt;/p&gt;
+
+&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/LQJrt0bouOfolo&quot; width=&quot;100%&quot; height=&quot;485&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;Try it out?&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Download &lt;code class=&quot;highlighter-rouge&quot;&gt;GeoDa 1.8 Beta&lt;/code&gt; at: &lt;a href=&quot;http://geodacenter.github.io&quot;&gt;http://geodacenter.github.io&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 19 Apr 2016 06:50:39 -0700</pubDate>
+        <link>http://localhost:4000/gis/geoda/%60data/analysis%60/2016/04/19/geoda-cartodb.html</link>
+        <guid isPermaLink="true">http://localhost:4000/gis/geoda/%60data/analysis%60/2016/04/19/geoda-cartodb.html</guid>
+        
+        
+        <category>gis</category>
+        
+        <category>geoda</category>
+        
+        <category>`data</category>
+        
+        <category>analysis`</category>
+        
+      </item>
+    
+      <item>
+        <title>Release GeoDa 1.8 beta - an open source software for spatial data analysis</title>
+        <description>&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;GeoDa&lt;/code&gt; is a free and open source software tool for spatial data analysis. The latest beta version 1.8 contains several new features such as support for more spatial file formats, full space-time data support in all views, basemap layers for all maps, averages charts, scatter plot matrices, nonparametric spatial autocorrelation (correlogram), and flexible data categorization.&lt;/p&gt;
+
+&lt;p&gt;For details: &lt;a href=&quot;http://geodacenter.github.io/&quot;&gt;http://geodacenter.github.io/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For an official release, follow us on twitter: @GeoDaCenter&lt;/p&gt;
+
+&lt;p&gt;Here are some previews.&lt;/p&gt;
+
+&lt;h3 id=&quot;cross-platform&quot;&gt;Cross Platform&lt;/h3&gt;
+
+&lt;p&gt;GeoDa runs on Mac OSX, Windows and Linux&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://geodacenter.github.io/images/intro1.png&quot; alt=&quot;my alternate text&quot; /&gt;
+&lt;img src=&quot;http://geodacenter.github.io/images/intro2.png&quot; alt=&quot;my alternate text&quot; /&gt;
+&lt;img src=&quot;http://geodacenter.github.io/images/intro3.png&quot; alt=&quot;my alternate text&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;geoda-now-supports-more-spatial-data-formats&quot;&gt;GeoDa Now Supports More Spatial Data Formats&lt;/h3&gt;
+
+&lt;p&gt;GeoDa now supports a larger variety of vector data in different formats: You can work with shapefiles, geodatabases, GeoJSON, MapInfo, GML, KML, and other vector data formats supported by the GDAL library. The program also converts coordinates in table format (.csv, .dbf, .xls, .ods) to one of these spatial data formats and converts data between different file formats (such as .csv to .dbf or shapefile to GeoJSON). Selecting a subset and exporting it as a new file is now also possible.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://geodacenter.github.io/images/dataformats.png&quot; alt=&quot;my alternate text&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;explore-statistical-results-through-linked-maps-and-charts&quot;&gt;Explore Statistical Results through Linked Maps and Charts&lt;/h3&gt;
+
+&lt;p&gt;In contrast to programs that visualize raw data in maps, GeoDa focuses on exploring the results of statistical tests and models through linked maps and charts.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://geodacenter.github.io/images/esda.png&quot; alt=&quot;my alternate text&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;analyze-spatial-and-temporal-patterns-across-linked-views&quot;&gt;Analyze Spatial and Temporal Patterns Across Linked Views&lt;/h3&gt;
+
+&lt;p&gt;You can now group the same variable across time periods in the new Time Editor to explore statistical patterns across space and time. Then explore results as views change over time with the Time Player.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://geodacenter.github.io/images/time.png&quot; alt=&quot;my alternate text&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;ground-truth-map-results-with-basemaps&quot;&gt;Ground-Truth Map Results with Basemaps&lt;/h3&gt;
+
+&lt;p&gt;If your spatial data are projected (.prj file), you can now add a basemap to any map view, including cluster maps, for better orientation and for ground-truthing results.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://geodacenter.github.io/images/intro4.png&quot; alt=&quot;my alternate text&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;compare-averages-across-time-and-space&quot;&gt;Compare Averages Across Time and Space&lt;/h3&gt;
+
+&lt;p&gt;A new Averages Chart compares values that are averaged over time and/or space and tests if the differences in these means are significant. For instance, first select if you want to compare means of selected vs. unselected observations in the same time period or compare all observations for different time periods. A basic pre-post/impact-control test then indicates if your results changed over time and space (using an F-test and difference-in-difference test).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://geodacenter.github.io/images/avgchart.png&quot; alt=&quot;my alternate text&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;detect-relationships-in-multivariate-space&quot;&gt;Detect Relationships in Multivariate Space&lt;/h3&gt;
+
+&lt;p&gt;A scatter plot matrix allows you to explore multiple bivariate correlations at once. In this example, the regression slopes for selected, unselected and all police precincts in San Francisco are shown to explore relationships between four types of crime.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://geodacenter.github.io/images/scatter_matrix.png&quot; alt=&quot;my alternate text&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;determine-if-changes-over-time-are-spatially-clustered&quot;&gt;Determine if Changes Over Time Are Spatially Clustered&lt;/h3&gt;
+
+&lt;p&gt;Use a global or local Differential Moran?s I test to find out if a variable?s change over time in a given location is statistically related to that of its neighbors. For instance, this local (LISA) cluster map shows hotspots in New York with larger changes in the share of kids between 2002 and 2008 (and coldspots with smaller changes).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://geodacenter.github.io/images/DiffMI.png&quot; alt=&quot;my alternate text&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;find-the-threshold-where-spatial-correlation-ends&quot;&gt;Find the Threshold Where Spatial Correlation Ends&lt;/h3&gt;
+
+&lt;p&gt;A nonparametric spatial autocorrelation test (correlogram) is now available to determine distance thresholds when the values of neighboring pairs are no longer correlated.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://geodacenter.github.io/images/corr.png&quot; alt=&quot;my alternate text&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;explore-the-impact-of-flexible-data-categorization&quot;&gt;Explore the Impact of Flexible Data Categorization&lt;/h3&gt;
+
+&lt;p&gt;With the new category editor, you can explore how sensitive your results are to changes in the thresholds that categorize your data. In this example the thresholds in the conditional map (right) are based on the categories that can be adjusted in the category editor (left).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://geodacenter.github.io/images/cat_editor.png&quot; alt=&quot;my alternate text&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 13 Apr 2015 06:50:39 -0700</pubDate>
+        <link>http://localhost:4000/tech/2015/04/13/geoda-18-release.html</link>
+        <guid isPermaLink="true">http://localhost:4000/tech/2015/04/13/geoda-18-release.html</guid>
+        
+        
+        <category>tech</category>
+        
+      </item>
+    
+      <item>
+        <title>Let Python talks with Webpages (back and forth)</title>
+        <description>&lt;p&gt;In the 2015 SigSpatial conference (Seattle, WA), I’ve demonstrated a prototype that allow the python developers can visualize their maps in a web browser. The cool things are, in a python terminal, the developers can not only type “show_map” to pop-up a webpage draws the map (using &lt;code class=&quot;highlighter-rouge&quot;&gt;HTML5 canvas&lt;/code&gt;), but also can get what has been selected on the map (e.g. if you use mouse select on map). Besides, the webpages can also communicate with each other, the selection, for example, can be synchronized across all opened webpages. (See the video demo below).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/python-webpage.png&quot; alt=&quot;my alternate text&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The technical behind is &lt;code class=&quot;highlighter-rouge&quot;&gt;web socket&lt;/code&gt;: there is a web socket server (written in &lt;code class=&quot;highlighter-rouge&quot;&gt;Python&lt;/code&gt;) plus a simple python HTTP server running in the background. The “d3viz.setup()” you seen in the demo is actually doing the setup. So, the python code can exchange information with HTML webpages via “web socket”.&lt;/p&gt;
+
+&lt;p&gt;This can be easily extended to &lt;code class=&quot;highlighter-rouge&quot;&gt;R&lt;/code&gt; or other scripting language, so you will only have one piece of HTML5 canvas based visualization code, which can be called to draw maps in different scripting languages. The most important thing is the developers in either Python or R world don’t need to spend a long time to figure out how to draw the right map or plot (if you are not a fun of matplotlib). The worse thing is these maps and plots you draw don’t even link (e.g. you select on the pie chart, you are expecting what have been selected shown on the map as well).&lt;/p&gt;
+
+&lt;p&gt;I am going to put this piece of code (prototype) on Github. (This line is reserved for the link)&lt;/p&gt;
+
+&lt;p&gt;===========================================================&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5hNDkSBfs8s&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Tue, 24 Feb 2015 06:50:39 -0700</pubDate>
+        <link>http://localhost:4000/tech/2015/02/24/python-webpage-html5.html</link>
+        <guid isPermaLink="true">http://localhost:4000/tech/2015/02/24/python-webpage-html5.html</guid>
+        
+        
+        <category>tech</category>
+        
+      </item>
+    
+      <item>
+        <title>Example content for posts</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;This demo page has been used from &lt;a href=&quot;http://jasonm23.github.io/markdown-css-themes/&quot; target=&quot;_blank&quot;&gt;http://jasonm23.github.io/markdown-css-themes/&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;
+
+&lt;h1&gt;A First Level Header&lt;/h1&gt;
+
+&lt;h2&gt;A Second Level Header&lt;/h2&gt;
+
+&lt;h3&gt;A Third Level Header&lt;/h3&gt;
+
+&lt;h4&gt;A Fourth Level Header&lt;/h4&gt;
+
+&lt;h5&gt;A Fifth Level Header&lt;/h5&gt;
+
+&lt;h6&gt;A Sixed Level Header&lt;/h6&gt;
+
+&lt;p&gt;Now is the time for all good men to come to
+the aid of their country. This is just a
+regular paragraph.&lt;/p&gt;
+
+&lt;p&gt;The quick brown fox jumped over the lazy
+dog&amp;rsquo;s back.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3&gt;Header 3&lt;/h3&gt;
+
+&lt;blockquote&gt;&lt;p&gt;This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.&lt;/p&gt;
+
+&lt;p&gt;Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+id sem consectetuer libero luctus adipiscing.&lt;/p&gt;
+
+&lt;h2&gt;This is an H2 in a blockquote&lt;/h2&gt;
+
+&lt;p&gt;This is the first level of quoting.&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;This is nested blockquote.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Back to the first level.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Some of these words &lt;em&gt;are emphasized&lt;/em&gt;.
+Some of these words &lt;em&gt;are emphasized also&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Use two asterisks for &lt;strong&gt;strong emphasis&lt;/strong&gt;.
+Or, if you prefer, &lt;strong&gt;use two underscores instead&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Candy.&lt;/li&gt;
+&lt;li&gt;Gum.&lt;/li&gt;
+&lt;li&gt;Booze.&lt;/li&gt;
+&lt;li&gt;Red&lt;/li&gt;
+&lt;li&gt;Green&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Blue&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A list item.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;With multiple paragraphs.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Another item in the list.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;This is a list item with two paragraphs. Lorem ipsum dolor
+sit amet, consectetuer adipiscing elit. Aliquam hendrerit
+mi posuere lectus.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Vestibulum enim wisi, viverra nec, fringilla in, laoreet
+vitae, risus. Donec sit amet nisl. Aliquam semper ipsum
+sit amet velit.*   Suspendisse id sem consectetuer libero luctus adipiscing.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;This is a list item with two paragraphs.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is the second paragraph in the list item. You&amp;rsquo;re
+only required to indent the first line. Lorem ipsum dolor
+sit amet, consectetuer adipiscing elit.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Another item in the same list.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A list item with a bit of &lt;code&gt;code&lt;/code&gt; inline.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A list item with a blockquote:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;This is a blockquote
+inside a list item.&lt;/p&gt;&lt;/blockquote&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here is an example of a pre code block&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;tell application &quot;Foo&quot;
+    beep
+end tell
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is an &lt;a href=&quot;#&quot;&gt;example link&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I start my morning with a cup of coffee and
+&lt;a href=&quot;http://www.nytimes.com/&quot;&gt;The New York Times&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;code-snippet&quot;&gt;Code snippet&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__name__&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'__main__'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;img_thread&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;threading&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Thread&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;target&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;downloadWallpaper&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;img_thread&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;start&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;st&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\r&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Downloading Image'&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;current&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;img_thread&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;is_alive&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stdout&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;st&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'.'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;current&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;current&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;current&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sleep&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;0.3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;img_thread&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Image of the day downloaded.'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+</description>
+        <pubDate>Fri, 04 Jun 2010 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/others/2010/06/04/example-content.html</link>
+        <guid isPermaLink="true">http://localhost:4000/others/2010/06/04/example-content.html</guid>
+        
+        
+        <category>others</category>
+        
+      </item>
+    
+  </channel>
+</rss>
