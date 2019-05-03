@@ -1,40 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Oleander AI</title>
-    <description>Software development</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 20 Nov 2018 11:37:42 -0700</pubDate>
-    <lastBuildDate>Tue, 20 Nov 2018 11:37:42 -0700</lastBuildDate>
-    <generator>Jekyll v3.7.4</generator>
-    
-      <item>
-        <title>Setup React development environment</title>
-        <description>&lt;p&gt;It is not the same age that you just open your vim and start writing codes to draft a prototype of a web app (client side), then debug your code in chrome. You need a better MVC model for your javascript based (web) application, so your project is more manageable and more towards a team development setup. I am not sure how well React will help you in development for now, and I will try it out.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Installation&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;To setup React development, you need a Node.js first.&lt;/p&gt;
-
-&lt;p&gt;Download GeoDa 1.8 at &lt;a href=&quot;http://geodacenter.github.io&quot;&gt;http://geodacenter.github.io&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 20 Nov 2018 03:30:39 -0700</pubDate>
-        <link>http://localhost:4000/development/react/javascript/node.js/2018/11/20/react-setup.html</link>
-        <guid isPermaLink="true">http://localhost:4000/development/react/javascript/node.js/2018/11/20/react-setup.html</guid>
-        
-        
-        <category>development</category>
-        
-        <category>react</category>
-        
-        <category>javascript</category>
-        
-        <category>node.js</category>
-        
-      </item>
+    <title>Xun Li</title>
+    <description>My Personal Blog</description>
+    <link>http://lixun910.github.io/</link>
+    <atom:link href="http://lixun910.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 20 Jun 2016 17:45:01 -0700</pubDate>
+    <lastBuildDate>Mon, 20 Jun 2016 17:45:01 -0700</lastBuildDate>
+    <generator>Jekyll v3.0.3</generator>
     
       <item>
         <title>GeoDa 1.8 helps you doing spatial data analysis on Ubuntu</title>
@@ -50,8 +23,8 @@ Your browser does not support the video tag.
 &lt;/video&gt;
 </description>
         <pubDate>Wed, 20 Apr 2016 06:50:39 -0700</pubDate>
-        <link>http://localhost:4000/geoda/data-analysis/2016/04/20/geoda-ubuntu.html</link>
-        <guid isPermaLink="true">http://localhost:4000/geoda/data-analysis/2016/04/20/geoda-ubuntu.html</guid>
+        <link>http://lixun910.github.io/geoda/data-analysis/2016/04/20/geoda-ubuntu.html</link>
+        <guid isPermaLink="true">http://lixun910.github.io/geoda/data-analysis/2016/04/20/geoda-ubuntu.html</guid>
         
         
         <category>geoda</category>
@@ -74,8 +47,8 @@ Your browser does not support the video tag.
 &lt;p&gt;Download &lt;code class=&quot;highlighter-rouge&quot;&gt;GeoDa 1.8 Beta&lt;/code&gt; at: &lt;a href=&quot;http://geodacenter.github.io&quot;&gt;http://geodacenter.github.io&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 19 Apr 2016 06:50:39 -0700</pubDate>
-        <link>http://localhost:4000/gis/geoda/%60data/analysis%60/2016/04/19/geoda-cartodb.html</link>
-        <guid isPermaLink="true">http://localhost:4000/gis/geoda/%60data/analysis%60/2016/04/19/geoda-cartodb.html</guid>
+        <link>http://lixun910.github.io/gis/geoda/%60data/analysis%60/2016/04/19/geoda-cartodb.html</link>
+        <guid isPermaLink="true">http://lixun910.github.io/gis/geoda/%60data/analysis%60/2016/04/19/geoda-cartodb.html</guid>
         
         
         <category>gis</category>
@@ -161,8 +134,8 @@ Your browser does not support the video tag.
 &lt;p&gt;&lt;img src=&quot;http://geodacenter.github.io/images/cat_editor.png&quot; alt=&quot;my alternate text&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 13 Apr 2015 06:50:39 -0700</pubDate>
-        <link>http://localhost:4000/tech/2015/04/13/geoda-18-release.html</link>
-        <guid isPermaLink="true">http://localhost:4000/tech/2015/04/13/geoda-18-release.html</guid>
+        <link>http://lixun910.github.io/tech/2015/04/13/geoda-18-release.html</link>
+        <guid isPermaLink="true">http://lixun910.github.io/tech/2015/04/13/geoda-18-release.html</guid>
         
         
         <category>tech</category>
@@ -186,8 +159,8 @@ Your browser does not support the video tag.
 &lt;iframe width=&quot;100%&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5hNDkSBfs8s&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Tue, 24 Feb 2015 06:50:39 -0700</pubDate>
-        <link>http://localhost:4000/tech/2015/02/24/python-webpage-html5.html</link>
-        <guid isPermaLink="true">http://localhost:4000/tech/2015/02/24/python-webpage-html5.html</guid>
+        <link>http://lixun910.github.io/tech/2015/02/24/python-webpage-html5.html</link>
+        <guid isPermaLink="true">http://lixun910.github.io/tech/2015/02/24/python-webpage-html5.html</guid>
         
         
         <category>tech</category>
@@ -205,8 +178,8 @@ Your browser does not support the video tag.
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
   &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
 
@@ -310,22 +283,22 @@ end tell
 
 &lt;h3 id=&quot;code-snippet&quot;&gt;Code snippet&lt;/h3&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__name__&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'__main__'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__name__&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;__main__&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
     &lt;span class=&quot;n&quot;&gt;img_thread&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;threading&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Thread&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;target&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;downloadWallpaper&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
     &lt;span class=&quot;n&quot;&gt;img_thread&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;start&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;st&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\r&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Downloading Image'&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;st&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\r&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Downloading Image&#39;&lt;/span&gt;
     &lt;span class=&quot;n&quot;&gt;current&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
     &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;img_thread&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;is_alive&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stdout&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;st&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'.'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;current&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stdout&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;st&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;.&#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;current&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
         &lt;span class=&quot;n&quot;&gt;current&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;current&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
         &lt;span class=&quot;n&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sleep&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;0.3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
     &lt;span class=&quot;n&quot;&gt;img_thread&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Image of the day downloaded.'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Image of the day downloaded.&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 </description>
         <pubDate>Fri, 04 Jun 2010 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/others/2010/06/04/example-content.html</link>
-        <guid isPermaLink="true">http://localhost:4000/others/2010/06/04/example-content.html</guid>
+        <link>http://lixun910.github.io/others/2010/06/04/example-content.html</link>
+        <guid isPermaLink="true">http://lixun910.github.io/others/2010/06/04/example-content.html</guid>
         
         
         <category>others</category>
