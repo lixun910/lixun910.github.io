@@ -1,52 +1,56 @@
+title:            Clean+Simple Theme
+description:      Something...
+       
 
-# Syntax highlighting
-markdown:            redcarpet
-highlighter:         pygments
+future:      false  # publish future dated posts --  true, false (default) 
+highlighter: rouge
+markdown:    kramdown
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-feed
+  
+sass:
+  sass_dir: _sass
+  style: compressed
 
-# Permalinks
-permalink:           /:title
-#relative_permalinks: true
+permalink: /:categories/:year-:month-:day/:title.html
 
-# Setup
-timezone:            Mountain Standard Time # eg. Asia/Kathmandu
-locale:              en_us # eg. en_us
-name:				         lixun910.github.io
-title:               lixun910.github.io
-tagline:             'tagline'
-description:         'Personal website'
-url:                 http://lixun910.github.io
-rss:                 http://lixun910.github.io/rss.xml
-baseurl:             '/'
-baseurl_posts_img:   '/assets/images/posts/'
-baseurl_featured_img: '/assets/images/hero/'
-baseurl_featured_thumbnail: '/assets/images/thumbnail/'
-baseurl_javascripts: '/assets/javascripts/'
-icon:                your site icon path # /assets/img/icon.png [best 300px X 300px]
-disqus:              disqus_shortname # get it on https://disqus.com/admin/
+# Amount of post to show on home page
+paginate: 5
 
-author:
-  name:           	 Xun Li
-  url:            	 http://lixun910.github.io/
-  facebook:          username
-  twitter:           username
-  google_plus:       username
-  linkedin:          xun-li-794a5b18
-  dribbble:          username
-  pinterest:         username
-  kiva:              username
+#kramdown:
+#  input: GFM
+#  auto_ids: true
+#  footnote_nr: 1
+#  entity_output: as_char
+#  toc_levels: 1..6
+#  enable_coderay: false
 
-fb_admins:           your facebook profile id
-fb_appid:            your facebook app id
-
-# Server
-destination:      	 ./_site
-exclude:          	 [".editorconfig", ".gitignore", "bower.json", "composer.json", "CONTRIBUTING.md", "CNAME", "LICENSE", "Gruntfile.js", "package.json", "node_modules", "README.md", "sass", "haml"]
-port:             	 9001
-
-defaults:
-  -
-    scope:
-      path: "_posts"
-      type: "posts"
-    values:
-      layout: "default"
+include: 
+  - .htaccess
+  
+exclude: 
+  - "*.less"
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - config
+  - gulpfile.js
+  - lib
+  - log
+  - node_modules
+  - package.json
+  - spec
+  - tmp
