@@ -257,12 +257,6 @@ button.btn, input.btn {
     margin-bottom: 2em;
   }
   img.img-responsive {
-    @include bp-xsmall {
-      display: none;
-    }
-    @include bp-small {
-      display: none;
-    }
     margin-top: 10em;
   }
   .content {
