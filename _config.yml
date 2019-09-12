@@ -1,55 +1,45 @@
-title: Xun Li
-description: My Personal Blog
-author: Xun Li
-logo: http://lixun910.github.io/static/img/avatar.png
-github: https://github.com/lixun910
-about: Dev for Map
-disqus_shortname: lixun910
-google_analytics: UA-74286861-1
-urls:
-    - text: Home
-      url: /
-      icon: fa-home
-      layout: post
-    - text: Projects
-      url: /projects/
-      icon: fa-desktop
-    - text: Github
-      url: https://github.com/lixun910
-      icon: fa-github
-    - text: XML Feed
-      url: /feed.xml
-      icon: fa-feed
-    - text: Resume
-      url: '/resume/'
-      icon: fa-graduation-cap
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-social:
-    - icon: fa-facebook
-      link: 'https://www.facebook.com/lixun910'
-    - icon: fa-skype
-      link: 'https://www.skype.com/lixun910'
-    - icon: fa-twitter
-      link: 'https://twitter.com/lixun910'
-    - icon: fa-linkedin
-      link: 'https://www.linkedin.com/in/xun-li-794a5b18'
-    #- icon: fa-stack-exchange
-    #  link: '#'
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: "Xun Li"
+email: 'lixun910@gmail.com'
+description: "I'm a software developer and from Chicago creating useful things for the web."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://lixun910.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: 'lixun910'
+github_username: 'lixun910'
+medium_username: 'lixun910'
+section_title: 'My software projects'
+section_subtitle: ''
 
-share:
-  twitter_username: lixun910
-  fb_appid: 000000000000
-
-
-enableTags: true
-tagarray: []
-
-url: "http://lixun910.github.io"
-baseurl: ""
-paginate: 20
-per_page: 20
-paginate_path: "/page:num/"
+# Build settings
 markdown: kramdown
-gems:
+# theme: phantom # Uncomment once published to RubyGems
+plugins:
   - jekyll-paginate
-  - jekyll-gist
+
+### Phantom settings
+paginate: 20
+footer_text: '© 2019 Xun Li'
+admin_name: 'Xun Li'
+google_analytics: "UA-74286861-1" # Update with your own tracking ID
+enable_contact: true
+
+#### Phantom Navigation menu
+enable_nav: true
+nav_item:
+  - { url: '/', text: 'Home' }
+  - { url: '/my_blog', text: 'Blog' }
+  - { url: '/about', text: 'About' }
