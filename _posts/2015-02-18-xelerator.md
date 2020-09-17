@@ -9,7 +9,7 @@ featured_image: '/img/posts/xelerator.jpg'
 project_link: 'https://github.com/lixun910/xelerator'
 button_icon: 'github'
 button_text: 'Github Repository'
-lead_text: "Xelarator is a Telnet application for UNIX/Linux engineers. It is a small tool to automate Unix/Linux shell scripting work.
+lead_text: "I am the author of Xelarator, which is a Telnet application for UNIX/Linux engineers. It is a small tool to automate Unix/Linux shell scripting work.
 
 Xelerator is a compact application that allows users to automatically execute and record UNIX shell scripts in multi-terminal consoles.
 
